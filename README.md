@@ -56,3 +56,22 @@ python -c "from modules.dga_detector import DGADetector; d = DGADetector(); prin
 
 ## License
 MIT License (c) 2025 Abdulkadir Turan
+
+
+## Phase 22: Deep Expansion Modules
+
+### Certificate & Encryption Security
+- `cert_transparency_monitor.py` - CT log monitoring, lookalike domain detection via Levenshtein distance, full TLS certificate chain auditing
+
+### Forensics & Investigation
+- `windows_eventlog_forensics.py` - MITRE ATT&CK mapped Windows Event Log parser with brute-force correlation, lateral movement detection, and kill chain reconstruction
+- `email_header_forensics.py` - Email delivery path tracing, SPF/DKIM/DMARC verification, display-name spoofing detection
+- `usb_device_auditor.py` - SetupAPI log parsing, USB whitelist enforcement, BadUSB attack detection
+- `malware_sandbox_analyzer.py` - Behavioral scoring engine for sandbox reports with weighted indicator classification
+
+### Identity & Credential Security
+- `password_policy_auditor.py` - NIST SP 800-63B compliance auditing, Shannon entropy calculation, keyboard walk detection, leet-speak decoding, GPU crack time estimation
+
+### Monitoring & Intelligence
+- `siem_correlation_engine.py` - Multi-source log correlation with configurable rules, time-windowed pattern matching, and multi-stage attack detection
+- `network_baseline_anomaly.py` - Statistical baseline building with Z-score and EWMA anomaly detection across traffic metrics
